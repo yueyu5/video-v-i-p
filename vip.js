@@ -54,15 +54,20 @@ function replacePlayer(e, rID) {
     var playerID = document.getElementById(rID);
     var thisURL = window.location.href.match('http[^\?]*')[0];
     playerID.innerHTML = '';
-    var newplayerID = document.createElement("iframe");
-    playerID.appendChild(newplayerID);
-    newplayerID.setAttribute("border", "0");
-    newplayerID.setAttribute("frameborder", "no");
-    newplayerID.setAttribute("scrolling", "no");
-    newplayerID.setAttribute("marginwidth", "0");
-    newplayerID.setAttribute("width", "100%");
-    newplayerID.setAttribute("height", "100%");
-    newplayerID.src = e.value + thisURL;
+	
+    if(window.location.protocol=="https:"){
+      window.open(e.value + thisURL, wID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');
+    }else{	
+      var newplayerID = document.createElement("iframe");
+      playerID.appendChild(newplayerID);
+      newplayerID.setAttribute("border", "0");
+      newplayerID.setAttribute("frameborder", "no");
+      newplayerID.setAttribute("scrolling", "no");
+      newplayerID.setAttribute("marginwidth", "0");
+      newplayerID.setAttribute("width", "100%");
+      newplayerID.setAttribute("height", "100%");
+      newplayerID.src = e.value + thisURL;
+    }
 	
 		/////////////////插入点击选择VIP通道后，select恢复默认状态//////////
 	var sid=document.getElementById("vip-select");
