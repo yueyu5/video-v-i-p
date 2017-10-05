@@ -1,13 +1,26 @@
 var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
-	"http://000o.cc/jx/ty.php?url=",
-	"http://vip.jlsprh.com/index.php?url=", 
-	"http://www.0335haibo.com/tong.php?url=", 
-	"http://api.wlzhan.com/sudu/?url=", 
-	"http://aikan-tv.com/?url=", 
-	"http://jx.vgoodapi.com/jx.php?url=", 
-	"http://q.z.vip.totv.72du.com/?url="
+	"https://api.xfsub.com/index.php?url=",
+"https://api.47ks.com/webcloud/?v=",
+"https://jiexi.071811.cc/jx.php?url=",
+"https://www.yymeier.com/api.php?url=",
+"https://api.vparse.org/?url=",
+"http://api.wlzhan.com/sudu/?url=", 
+"http://api.baiyug.cn/vip/index.php?url=",
+"http://000o.cc/jx/ty.php?url=",
+"http://www.viyun.me/jiexi.php?url=", 
+"http://yun.mt2t.com/yun?url=", 
+"http://www.sfsft.com/admin.php?url=",
+"http://www.wmxz.wang/index.php?url=",
+"http://www.wmxz.wang/video.php?url=",
+"http://2.jx.72du.com/video.php?url=",
+"http://www.vipjiexi.com/yun.php?url=",
+"http://www.0335haibo.com/tong.php?url=",
+"http://q.z.vip.totv.72du.com/?url=",
+"http://aikan-tv.com/?url=",
+"http://jx.vgoodapi.com/jx.php?url=",
+"http://vip.jlsprh.com/index.php?url="
 );
 for (x in vipChannl) {
     vipOption = vipOption + '<option value="' + vipChannl[x] + '">VIP通道' + inum+++'</option>';
