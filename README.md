@@ -1,3 +1,9 @@
+http://oor9u24rg.bkt.clouddn.com/vip.js
+http://koolshare.b0.upaiyun.com/vip/vip.js
+http://koolshare.b0.upaiyun.com/vip/vip_iqiyi.js
+https://koolshare.b0.upaiyun.com/vip/vip_qq.js
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yueyu5/video-v-i-p/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
