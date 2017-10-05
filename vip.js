@@ -1,11 +1,11 @@
 var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
-"http://api.baiyug.cn/vip/index.php?url=",
 "http://www.sfsft.com/admin.php?url=",
 "http://www.wmxz.wang/index.php?url=",
 "http://2.jx.72du.com/video.php?url=",
 "http://000o.cc/jx/ty.php?url=",
+"http://api.baiyug.cn/vip/index.php?url=",
 "http://www.vipjiexi.com/yun.php?url=",
 "http://q.z.vip.totv.72du.com/?url=",
 "http://aikan-tv.com/?url=",
