@@ -60,7 +60,7 @@ function replacePlayer(e, rID) {
     playerID.innerHTML = '';
 
     /////检测网页类型，若是https则直接弹出网页；若http则直接替换框架
-    if(window.location.protocol=="https:"){
+    if(window.location.protocol=="httpgs:"){
       window.open(e.value + thisURL, rID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');
     }else{
       var newplayerID = document.createElement("iframe");
