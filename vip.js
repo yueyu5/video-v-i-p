@@ -15,7 +15,11 @@ var vipChannl = new Array(
 "http://vip.jlsprh.com/index.php?url=",
 "http://www.0335haibo.com/tong.php?url=",
 "https://api.vparse.org/?url=",
-"http://yun.mt2t.com/yun?url="
+"http://yun.mt2t.com/yun?url=",
+"http://v.72du.com/api/?url=",
+"http://www.chepeijian.cn/jiexi/vip.php?url=",
+"http://www.82190555.com/index/iqiyi.php?url=",
+"http://yyygwz.com/index.php?url="
 );
 for (x in vipChannl) {
     vipOption = vipOption + '<option value="' + vipChannl[x] + '">VIP通道' + inum+++'</option>';
