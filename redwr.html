@@ -38,7 +38,7 @@ xmlHttp.send(null);
 function writeSource() { 
 if (xmlHttp.readyState == 4) { 
 document.getElementById("source").value = xmlHttp.responseText; 
-  document.write(xmlHttp.responseText);
+ 
 } 
 } 
 </script> 
@@ -52,3 +52,15 @@ document.getElementById("source").value = xmlHttp.responseText;
 <textarea rows="10" cols="80" id="source"></textarea> 
 </body> 
 </html>
+ <title>使用Javascript改变HTML内容的测试-起飞网</title>
+    <script type="text/javascript">
+        function changeMySpanHtml() {
+            document.getElementById("mySpan").innerHTML =xmlHttp.responseText;
+        }
+    </script>
+</head>
+<body>
+    <h1>使用Javascript改变HTML内容的测试-起飞网</h1>
+    <p>span内容：<span id="mySpan">我是span标签的原始内容！</span></p>
+    <p><input type="button" value="点击改变span内容" onclick="changeMySpanHtml()" /></p>
+</body>
