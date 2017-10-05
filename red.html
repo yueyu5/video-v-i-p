@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <script>
+        var thisURL = document.URL;
+
+        //分割成字符串
+        var  getval =thisURL.split('?')[1];
+
+        var keyValue = getval.split('&');
+
+        var showval = "所有value 值为：";
+        for(var i = 0;i <keyValue.length;i++){
+            var oneKeyValue = keyValue[i];
+            var oneValue = oneKeyValue.split("=")[1];
+
+            showval = showval + oneValue + ";"
+        }
+
+        function  showvalf(){
+            alert(showval);
+            document.getElementById('ee').value=showval;
+        }
+    </script>
+
 </head>
-<body>
+<body onload="showvalf()">
 
-<script LANGUAGE="JavaScript">
-    function show(){
-        var result = document.getElementById("name").value;alert(result);
-        location.href="index33.html?name="+result;
-    }
-</script>
-
-<style>
-    .input7 {color: #999;width:145px;height:20px;border: 1px solid #CCCCCC; font-size:12px;background-color: #fff;}
-</style>
-
-
-<input type="text" id="name" class="input7">
-<input type="button" value="OK" onclick="show()"/>
-
-
+<input type="text"  id ="ee" >
 </body>
-</html></span>
+</html>
+</span>
