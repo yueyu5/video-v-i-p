@@ -55,9 +55,9 @@ function replacePlayer(e, rID) {
     var thisURL = window.location.href.match('http[^\?]*')[0];
     playerID.innerHTML = '';
 	
-    if(window.location.protocol=="https:"){alert("https");
-      window.open(e.value + thisURL, wID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');
-    }else{	alert("http");
+    if(window.location.protocol=="https:"){
+      window.open(e.value + thisURL, rID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');
+    }else{
       var newplayerID = document.createElement("iframe");
       playerID.appendChild(newplayerID);
       newplayerID.setAttribute("border", "0");
