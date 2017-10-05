@@ -9,8 +9,6 @@
         //分割成字符串
         var  getval =thisURL.split('@')[1];
 
-        var keyValue = getval.split('&');
-
         var showval = "";
         for(var i = 0;i <keyValue.length;i++){
             var oneKeyValue = keyValue[i];
@@ -20,7 +18,7 @@
         }
 
         function  showvalf(){
-alert(showval);           window.location.href=showval;
+alert(getval);           window.location.href=getval;
         }
     </script>
 
