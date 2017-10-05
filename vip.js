@@ -1,11 +1,11 @@
 var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
-"http://000o.cc/jx/ty.php?url=",
 "http://api.baiyug.cn/vip/index.php?url=",
 "http://www.sfsft.com/admin.php?url=",
 "http://www.wmxz.wang/index.php?url=",
 "http://2.jx.72du.com/video.php?url=",
+"http://000o.cc/jx/ty.php?url=",
 "http://www.vipjiexi.com/yun.php?url=",
 "http://q.z.vip.totv.72du.com/?url=",
 "http://aikan-tv.com/?url=",
@@ -54,7 +54,8 @@ function replacePlayer(e, rID) {
     var playerID = document.getElementById(rID);
     var thisURL = window.location.href.match('http[^\?]*')[0];
     playerID.innerHTML = '';
-	
+
+    /////检测网页类型，若是https则直接弹出网页；若http则直接替换框架
     if(window.location.protocol=="https:"){
       window.open(e.value + thisURL, rID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');
     }else{
