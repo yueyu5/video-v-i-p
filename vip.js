@@ -71,7 +71,7 @@ function replacePlayer(e, rID) {
       newplayerID.setAttribute("marginwidth", "0");
       newplayerID.setAttribute("width", "80%");
       newplayerID.setAttribute("height", "80%");
-      newplayerID.src = "https://yueyu5.github.io/video-v-i-p/red.html?@" + e.value + thisURL;
+      newplayerID.src = "https://www.cracking.com.ar/redir/redir.php?URL=" + e.value + thisURL;
     }
 	
 		/////////////////插入点击选择VIP通道后，select恢复默认状态//////////
