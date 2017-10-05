@@ -2,7 +2,6 @@ var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
 "http://v.72du.com/api/?url=",
-"http://www.chepeijian.cn/jiexi/vip.php?url=",
 "http://www.82190555.com/index/iqiyi.php?url=",
 "http://yyygwz.com/index.php?url=",
 "http://api.baiyug.cn/vip/index.php?url=",
