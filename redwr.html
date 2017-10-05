@@ -55,7 +55,7 @@ document.getElementById("source").value = xmlHttp.responseText;
  <title>使用Javascript改变HTML内容的测试-起飞网</title>
     <script type="text/javascript">
         function changeMySpanHtml() {
-            document.getElementById("mySpan").innerHTML =xmlHttp.responseText;
+            document.getElementById("mySpan").innerHTML =document.getElementById("source").value;
         }
     </script>
 </head>
