@@ -69,8 +69,8 @@ function replacePlayer(e, rID) {
       newplayerID.setAttribute("frameborder", "no");
       newplayerID.setAttribute("scrolling", "no");
       newplayerID.setAttribute("marginwidth", "0");
-      newplayerID.setAttribute("width", "100%");
-      newplayerID.setAttribute("height", "100%");
+      newplayerID.setAttribute("width", "90%");
+      newplayerID.setAttribute("height", "90%");
       newplayerID.src = e.value + thisURL;
     }
 	
