@@ -2,7 +2,7 @@
 https://yueyu5.github.io/video-v-i-p/
 
 ## 规则
-
+<code>
 ! 1.插入脚本。<br>
 ! 2.插入按钮，insVIP(id1,'id2)；id1是按钮要插入的位置的id，3指要替换的播放器的框架id。<br>
 
@@ -34,7 +34,7 @@ https://yueyu5.github.io/video-v-i-p/
 |http://www.mgtv.com/b/*$s@</head>@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js"></script></head>;@<br>
 |http://www.mgtv.com/b/*$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@<br>
 |http://www.mgtv.com/b/*##[class="c-player-paytips "]<br>
-
+</code>
 
 ## 第一种
 http://oor9u24rg.bkt.clouddn.com/vip.js
