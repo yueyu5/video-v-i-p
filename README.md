@@ -1,7 +1,7 @@
 ## 第一种
 http://oor9u24rg.bkt.clouddn.com/vip.js
 
-##第二种
+## 第二种
 http://koolshare.b0.upaiyun.com/vip/vip.js
 
 http://koolshare.b0.upaiyun.com/vip/vip_iqiyi.js
