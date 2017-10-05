@@ -29,7 +29,7 @@ alert("请输入网页地址。");
 return; 
 } 
 document.getElementById("source").value = "正在加载……"; //提示正在加载 
-createXmlHttp(); //创建XMLHttpRequest对象 
+createXmlHttp(); //创建XMLHtt1pRequest对象 
 xmlHttp.onreadystatechange = writeSource; //设置回调函数 
 xmlHttp.open("GET", url, true); 
 xmlHttp.send(null); 
@@ -38,7 +38,7 @@ xmlHttp.send(null);
 function writeSource() { 
 if (xmlHttp.readyState == 4) { 
 document.getElementById("source").value = xmlHttp.responseText; 
-  document.write(xmlHttp.responseText;
+  document.write(xmlHttp.responseText);
 } 
 } 
 </script> 
