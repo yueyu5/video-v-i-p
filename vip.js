@@ -1,6 +1,14 @@
 var inum = 1,
 vipOption = "";
-var vipChannl = new Array("http://vip.jlsprh.com/index.php?url=", "http://www.0335haibo.com/tong.php?url=", "http://api.wlzhan.com/sudu/?url=", "http://aikan-tv.com/?url=", "http://jx.vgoodapi.com/jx.php?url=", "http://000o.cc/jx/ty.php?url=", "http://q.z.vip.totv.72du.com/?url=");
+var vipChannl = new Array(
+	"http://000o.cc/jx/ty.php?url=",
+	"http://vip.jlsprh.com/index.php?url=", 
+	"http://www.0335haibo.com/tong.php?url=", 
+	"http://api.wlzhan.com/sudu/?url=", 
+	"http://aikan-tv.com/?url=", 
+	"http://jx.vgoodapi.com/jx.php?url=", 
+	"http://q.z.vip.totv.72du.com/?url="
+);
 for (x in vipChannl) {
     vipOption = vipOption + '<option value="' + vipChannl[x] + '">VIP通道' + inum+++'</option>';
 }
