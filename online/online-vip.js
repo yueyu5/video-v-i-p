@@ -53,8 +53,7 @@ function replacePlayer(e, rID, Url) {
     var playerID = document.getElementById(rID);
 	var tourl=document.getElementById(Url).value;
     playerID.href = e.value + tourl;
-  //  window.open(e.value + tourl, rID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0')
-    setTimeout('document.getElementById("jmp").click();',500);
+  SetTimeout("window.open(e.value + tourl, rID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');",500);
 		/////////////////插入点击选择VIP通道后，select恢复默认状态//////////
 	var sid=document.getElementById("vip-select");
 	document.getElementById("vip-text").value="当前：" + sid.options[sid.selectedIndex].text;
