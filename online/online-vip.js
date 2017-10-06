@@ -29,6 +29,7 @@ function insVIP(emID, rID, Url) {
 	
     var newNode = document.createElement("select");
 	newNode.setAttribute("class", "styled-select");
+	newNode.setAttribute("style"," font-size:20px;"); 
     newNode.setAttribute("title", "Modified by YUEYU.");
     gemID.appendChild(newNode);
     newNode.setAttribute("onchange", "replacePlayer(this,'" + rID + "' ,'"+Url+"' )");
