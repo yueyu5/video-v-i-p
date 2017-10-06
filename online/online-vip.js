@@ -54,7 +54,7 @@ function replacePlayer(e, rID, Url) {
 	var tourl=document.getElementById(Url).value;
     playerID.href = e.value + tourl;
    
- document.getElementById("jmp").click();
+ /document.getElementById("jmp").click();
 		/////////////////插入点击选择VIP通道后，select恢复默认状态//////////
 	var sid=document.getElementById("vip-select");
 	document.getElementById("vip-text").value="当前：" + sid.options[sid.selectedIndex].text;
