@@ -52,7 +52,7 @@ function insVIP(emID, rID, Url) {
 function replacePlayer(e, rID, Url) {	
     var playerID = document.getElementById(rID);
 	var tourl=document.getElementById(Url).value;
-    playerID.href = e.value + tourl;
+    playerID.href = e.value + tourl;alert(playerID.href);
    //var newWindow = window.open("_blank");newWindow .location = e.value + tourl ;
 //SetTimeout("window.open(e.value + tourl, rID, 'width=1051,height=592,location=0,menubar=0,scrollbars=0,status=0,toolbar=0');",500);
 		/////////////////插入点击选择VIP通道后，select恢复默认状态//////////
