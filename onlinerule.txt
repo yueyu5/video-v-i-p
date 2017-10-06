@@ -1,0 +1,55 @@
+! 1.插入脚本。
+
+! 2.插入按钮，insVIP(id1,'id2)；id1是按钮要插入的位置的id，3指要替换的播放器的框架id。
+
+
+!优酷
+
+|http://v.youku.com/v_show/*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
+
+|http://v.youku.com/v_show/*$s@@<script>insVIP('fns','player');@
+
+||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
+
+
+!爱奇艺
+
+|http://www.iqiyi.com/v_*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip_iqiyi.js">;@
+
+|http://www.iqiyi.com/v_*$s@@<script>insVIP('mod-play-tit','flashbox');@
+
+|http://www.iqiyi.com/v_*##div[style*="absolute";][style*="visibility"]
+
+
+!乐视
+
+|http://www.le.com/$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
+
+|http://www.le.com/$s@@<script>insVIP('j-video-name video-name','fla_box');@
+
+
+!搜狐视频
+
+|http://tv.sohu.com/*/*.shtml$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
+
+|http://tv.sohu.com/*/*.shtml$s@@<script>insVIP('videoBox cfix','player_vipTips');@
+
+|http://tv.sohu.com/*/*.shtml##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
+
+
+!腾讯视频
+
+|https://v.qq.com/x/*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip_qq.js">;@
+
+|https://v.qq.com/x/*$s@@<script>insVIPssl('action_wrap cf','tenvideo_player');@
+
+|https://v.qq.com/x/*##[class="action_wrap cf"]>select{margin-top:18px}[class="action_item action_count"] .icon_text
+
+
+!芒果TV
+
+|http://www.mgtv.com/b/*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
+
+|http://www.mgtv.com/b/*$s@@<script>insVIP("v-panel-count","mgtv-player-wrap");@
+
+|http://www.mgtv.com/b/*##[class="c-player-paytips "]
