@@ -33,7 +33,7 @@ function insVIP(emID, rID, Url) {
     gemID.appendChild(newNode);
     newNode.setAttribute("onchange", "replacePlayer(this,'" + rID + "' ,'"+Url+"' )");
 	///////////添加value=1
-    newNode.innerHTML = '<option selected="selected" value="1" disabled="disabled">步骤二: 选择VIP通道</option>' + vipOption;
+    newNode.innerHTML = '<option style:font-size:20px; selected="selected" value="1" disabled="disabled">步骤二: 选择VIP通道</option>' + vipOption;
 	///////////添加select的id/////////
 	newNode.setAttribute("id", "vip-select");
 	
