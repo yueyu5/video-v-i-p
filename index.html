@@ -52,10 +52,7 @@ input[type="submit"]{color: #999;padding: 5px 10px;float: right;margin: 20px 0;b
  </head> 
  <body> 
   <div id="container" align="center"> 
-   <div class="description"> 
-    <br />VIP视频在线
-    <br /> 
-   </div> 
+   <div class="description"><br>VIP视频在线<br></div> 
    <div class="rain"> 
     <div class="border start"> 
      <form name="frm"> 
@@ -63,18 +60,14 @@ input[type="submit"]{color: #999;padding: 5px 10px;float: right;margin: 20px 0;b
       <label for="user" stytle:font-size:20px;="">步骤一: 输入视频地址</label> 
       <input id="url" type="text" placeholder="请将复制的视频地址粘贴此处" />
       <br /> 
-      <div class="fns" modshow="1"> 
-       <div> 
-       </div> 
-       <!--/////////////////////////////--> 
-      </div> 
+      <div class="fns" modshow="1"></div> 
       <a id="player" href="" target="_blank"></a> 
-      <br />
-      <a onclick="javascript:window.open(document.getElementById("player").href)">步骤三: 点击这里，打开视频网页</a> 
+      <br>
+      <a onclick='javascript:window.open(document.getElementById("player").href)'>步骤三: 点击这里，打开视频网页</a> 
      </form> 
     </div> 
    </div> 
-   <br /> 
+   <br> 
    <span style="color:#F60">Powered by Yueyu.</span> 
    <script>
 insVIP('fns','player','url');
