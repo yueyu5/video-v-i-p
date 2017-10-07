@@ -74,3 +74,11 @@ function replacePlayer(e, rID) {
 	sid.value="1";
 	////////////////////////////////////////////////////////////////////
 }
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f1429b4d04f0b7286f0e057552b4ac21";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
