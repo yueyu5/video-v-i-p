@@ -5,7 +5,7 @@ var vipChannl = new Array(
 "//hyysvip.duapp.com/ff/?url=",
 "http://www.52jiexi.com/x2/tong.php?url=",
 "http://www.82190555.com/index/iqiyi.php?url=",
-"https://api.47ks.com/webcloud/?v=",		
+"https://yueyu5.github.io/video-v-i-p/red.html?@https://api.47ks.com/webcloud/?v=",		
 //去广告VIP，此链接不支持安卓
 
 "http://yueyu5.gitee.io/v-i-p-edio/online/api.baiyug.cn/red.html?@http://api.baiyug.cn/vip_vip/index.php?url=",
