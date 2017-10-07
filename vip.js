@@ -5,10 +5,10 @@ var vipChannl = new Array(
 "//hyysvip.duapp.com/ff/?url=",
 "http://www.52jiexi.com/x2/tong.php?url=",
 "http://www.82190555.com/index/iqiyi.php?url=",
-"https://yueyu5.github.io/video-v-i-p/red.html?@https://api.47ks.com/webcloud/?v=",		
+"https://api.vparse.org/?url=",		
 //去广告VIP，此链接不支持安卓
  
-"https://yueyu5.github.io/video-v-i-p/online/api.baiyug.cn/red.html?@http://api.baiyug.cn/vip_vip/index.php?url=",
+"http://api.baiyug.cn/vip/index.php?url=",
 "http://jx.vgoodapi.com/jx.php?url=",
 "http://yun.mt2t.com/yun?url=",
 "https://tyhttps.duapp.com/104https/333.php?url=",
