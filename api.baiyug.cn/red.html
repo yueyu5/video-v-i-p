@@ -1,0 +1,25 @@
+<span style="font-size:14px;"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var thisURL = document.URL;
+        //分割成字符串
+        var  getval =thisURL.split('@')[1];
+        var showval = "";
+        for(var i = 0;i <keyValue.length;i++){
+            var oneKeyValue = keyValue[i];
+            var oneValue = oneKeyValue.split("=")[1];
+            showval = showval + oneValue;
+        }
+        function  showvalf(){
+          window.location.href=getval;
+        }
+    </script>
+
+</head>
+<body onload="showvalf()">
+</body>
+</html>
+</span>
