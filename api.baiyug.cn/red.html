@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-   
-     <iframe id="player" src="http://api.baiyug.cn/vip_vip/index.php?url=https://v.qq.com/x/cover/jzhtr2cgy35ejz0/h00244n7p9f.html?ptag=jimu.42142.zt" width="100%" height="400px" allowtransparency="true" frameborder="0" scrolling="no" style="background:#000;"> </iframe> 
+   <a style="background:#f00;">已切换线路。若等待仍无反应，可能不支持Android。</a>
+     <iframe id="yer" src="" width="100%" height="100%" allowtransparency="true" frameborder="0" scrolling="no" style="background:#000;"></iframe> 
 
 
 </head>
-
+ <script>
+        var thisURL = document.URL;
+        //分割成字符串
+        var  getval =thisURL.split('@')[1];
+        var showval = "";
+        for(var i = 0;i <keyValue.length;i++){
+            var oneKeyValue = keyValue[i];
+            var oneValue = oneKeyValue.split("=")[1];
+            showval = showval + oneValue;
+        }
+        function  showvalf(){
+          document.getElementById("yer").src=getval;
+        }
+    </script>
 </body>
+<body onload="showvalf()">
 </html>
 </span>
