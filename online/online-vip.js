@@ -1,24 +1,18 @@
 var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
-"http://v.72du.com/api/?url=",
+"//api.618g.com/vip_vip/index.php?url=",		
+"//hyysvip.duapp.com/ff/?url=",
+"http://www.52jiexi.com/x2/tong.php?url=",
 "http://www.82190555.com/index/iqiyi.php?url=",
-"http://yyygwz.com/index.php?url=",
-"http://api.baiyug.cn/vip/index.php?url=",
-"http://www.sfsft.com/admin.php?url=",
-"http://www.wmxz.wang/index.php?url=",
-"http://2.jx.72du.com/video.php?url=",
-"http://000o.cc/jx/ty.php?url=",
-"http://www.vipjiexi.com/yun.php?url=",
-"http://q.z.vip.totv.72du.com/?url=",
-"http://aikan-tv.com/?url=",
-"https://api.47ks.com/webcloud/?v=",
-"http://api.wlzhan.com/sudu/?url=", 
+"https://api.47ks.com/webcloud/?v=",		
+//去广告VIP，此链接不支持安卓
+
+"http://yueyu5.gitee.io/v-i-p-edio/online/api.baiyug.cn/red.html?@http://api.baiyug.cn/vip_vip/index.php?url=",
 "http://jx.vgoodapi.com/jx.php?url=",
-"http://vip.jlsprh.com/index.php?url=",
-"http://www.0335haibo.com/tong.php?url=",
-"https://api.vparse.org/?url=",
-"http://yun.mt2t.com/yun?url="
+"http://yun.mt2t.com/yun?url=",
+"https://tyhttps.duapp.com/104https/333.php?url=",
+"http://aikan-tv.com/?url="
 );
 for (x in vipChannl) {
     vipOption = vipOption + '<option value="' + vipChannl[x] + '">VIP通道' + inum+++'</option>';
