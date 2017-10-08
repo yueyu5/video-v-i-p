@@ -33,7 +33,7 @@
 |http://tv.sohu.com/*/*.shtml$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
 
 |http://tv.sohu.com/*/*.shtml$s@@<script>insVIP('videoBox cfix','player_vipTips');@
-
+ 
 |http://tv.sohu.com/*/*.shtml##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
 
 
