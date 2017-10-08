@@ -1,18 +1,18 @@
 var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
-"//api.618g.com/vip_vip/index.php?url=",		
-"//hyysvip.duapp.com/ff/?url=",
-"http://www.52jiexi.com/x2/tong.php?url=",
 "http://www.82190555.com/index/iqiyi.php?url=",
-"https://api.vparse.org/?url=",		
+"https://api.47ks.com/webcloud/?v=",		
 //去广告VIP，此链接不支持安卓
- 
-"http://api.baiyug.cn/vip/index.php?url=",
+
+"http://yueyu5.gitee.io/v-i-p-edio/online/api.baiyug.cn/red.html?@http://api.baiyug.cn//vip_p_0bc6/index.php?url=",
 "http://jx.vgoodapi.com/jx.php?url=",
 "http://yun.mt2t.com/yun?url=",
-"https://tyhttps.duapp.com/104https/333.php?url=",
-"http://aikan-tv.com/?url="
+"http://aikan-tv.com/?url=",
+"http://j.zz22x.com/jx/?url=",
+"http://www.52jiexi.com/x2/tong.php?url=",
+"http://333c48-0.sh.1251081682.clb.myqcloud.com/?url=",
+"http://jx.618g.com/?url="
 );
 for (x in vipChannl) {
     vipOption = vipOption + '<option value="' + vipChannl[x] + '">VIP通道' + inum+++'</option>';
