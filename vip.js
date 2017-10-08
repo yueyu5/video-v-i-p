@@ -46,7 +46,7 @@ function insVIP(emID, rID) {
 	newNode2.setAttribute("disabled", "disabled");	
 	/////////////////////////////////////////////////////////////
 	
-}
+} 
 function replacePlayer(e, rID) {	
     var playerID = document.getElementById(rID);
     var thisURL = window.location.href.match('http[^\?]*')[0];
