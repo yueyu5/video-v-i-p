@@ -1,7 +1,7 @@
 var inum = 1,
 vipOption = "";
 var vipChannl = new Array(
-"//api.618g.com/vip_vip/index.php?url=",		
+"//api.618g.com/vip/index.php?url=",		
 "//hyysvip.duapp.com/ff/?url=",
 "http://www.52jiexi.com/x2/tong.php?url=",
 "http://www.82190555.com/index/iqiyi.php?url=",
