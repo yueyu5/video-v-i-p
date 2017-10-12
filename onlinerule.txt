@@ -14,7 +14,7 @@
 
 !爱奇艺
 
-|http://www.iqiyi.com/v_*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip_iqiyi.js">;@
+|http://www.iqiyi.com/v_*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
 
 |http://www.iqiyi.com/v_*$s@@<script>insVIP('mod-play-tit','flashbox');@
 
@@ -39,7 +39,7 @@
 
 !腾讯视频
 
-|https://v.qq.com/x/*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip_qq.js">;@
+|https://v.qq.com/x/*$s@@<script  type="text/javascript" charset="utf-8" src="https://yueyu5.github.io/video-v-i-p/vip.js">;@
 
 |https://v.qq.com/x/*$s@@<script>insVIPssl('action_wrap cf','tenvideo_player');@
 
